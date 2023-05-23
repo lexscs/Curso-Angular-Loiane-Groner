@@ -14,7 +14,7 @@ export class CursosComponent implements OnInit {
   cursos: string[]; //
 
   constructor(private CursosService: CursosService) {
-    this.nomePortal = 'nomePortal';
+    this.nomePortal = 'TESTE';
 
     /* for (let i = 0; i < this.cursos.length; i++) {
       let curso = this.cursos[i];
